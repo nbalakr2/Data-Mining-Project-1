@@ -1,9 +1,16 @@
 # Data-Mining-Project-1
 
-PROBLEM INTRODUCTION
+# Project 1: Defining a Problem and Data Understanding  
 
-DATA INTRODUCTION
+## Introduction: The Problem  
+For this project, I wanted to focus on hearing loss and its predictors. As someone who makes and listens to music at high volumes, I have a personal stake in understanding what factors contribute to long-term hearing damage. The problem I’m trying to address is: *what levels and thresholds actually feed into cumulative hearing loss, and what predictors (such as age, sex, or exposure to noise) are most strongly related to this outcome?*  
 
+The guiding questions for my analysis are:  
+- How do hearing thresholds vary across age groups?  
+- Are there clear differences in hearing ability between men and women?  
+- What role does reported noise exposure play compared to biological factors?  
+
+## The Data  
 The dataset I am working with comes from the **National Health and Nutrition Examination Survey (NHANES)**, which collects large-scale health and nutrition data from participants in the U.S. over multiple cycles. Specifically, I am drawing on the NHANES audiometric testing files that record hearing thresholds across several frequencies.
 
 https://wwwn.cdc.gov/nchs/nhanes/search/datapage.aspx?Component=Examination&Cycle=2017-2020
