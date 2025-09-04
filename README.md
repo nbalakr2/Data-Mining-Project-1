@@ -33,26 +33,20 @@ I have already compiled 3 datasets (DEMO, AUQ, AUX) in R by joining them on the 
 
 ## Data Understanding and Visualization (Incomplete)  
 
-- **Age vs. average hearing threshold** → line chart  
-- **Gender differences** → boxplot comparing male vs. female thresholds  
-- **Noise exposure** → bar chart or histogram for distribution of exposure vs. hearing outcomes
+- **Age vs. average hearing threshold** : line chart  
+- **Gender differences** : boxplot comparing male vs. female thresholds  
+- **Noise exposure** : bar chart or histogram for distribution of exposure vs. hearing outcomes
 
-*Placeholder for Figure 1: Line graph of Age vs. Average Hearing Threshold*  
-*Placeholder for Figure 3: Bar chart of Noise Exposure and Hearing Outcomes*
-*Placeholder for Figure 2: Boxplot of Gender Differences in Hearing Thresholds*    
+*Placeholder - Figure 1: Line graph of Age vs. Average Hearing Threshold*  
+*Placeholder - Figure 2: Bar chart of Noise Exposure and Hearing Outcomes*
+*Placeholder - Figure 3: Boxplot of Gender Differences in Hearing Thresholds*    
 
-#Storytelling
+##Storytelling
 
-Through this analysis, i'd like to tell a story about hearing health in the U.S. The visualizations should make clear how age, lifestyle, and environment intersect to shape hearing outcomes. By connecting this data to both personal experience, as well as public health relevance, I hope to build a narrative that is relatable and meaningful while maintaining real-world impact.  
-
-The initial questions — around age, gender, and noise exposure — will likely be answered in part. But I also expect new questions to emerge, such as whether socioeconomic factors play an indirect role, or whether particular frequencies are disproportionately affected.  
-
-#Impact Section
+My goal through this analysis is that i'd like to tell a story and make an impact regarding hearing health globally.
 
 ## Impact Section  
 This project raises awareness about hearing health and prevention, especially for younger populations exposed to high-volume music. But there are risks of oversimplification. For example, focusing only on gender differences without considering occupational noise exposure or healthcare access could lead to narrow conclusions. Also, NHANES is U.S.-specific, so the results may not generalize globally.  
-
-#References
 
 ## References  
 - Centers for Disease Control and Prevention (CDC). *National Health and Nutrition Examination Survey (NHANES)*.  
