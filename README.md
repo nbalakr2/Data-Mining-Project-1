@@ -18,17 +18,13 @@ https://wwwn.cdc.gov/nchs/nhanes/search/datapage.aspx?Component=Examination&Cycl
 
 These features allow for both a biological and social understanding of hearing health.  
 
-#Pre-processing the data
-
 ## Pre-processing the Data (Planned)  
 - **Handle missing values** → NHANES has incomplete responses. I’ll decide whether to drop or impute based on coverage.  
 - **Combine cycles** → Merge data from multiple NHANES cycles (2011–2020) for a larger sample.  
 - **Recode categorical data** → Clean categories for gender, race/ethnicity, and education.  
-- **Normalize thresholds** → Create averages across ears/frequencies or group thresholds into categories (normal, mild, severe).  
+- **Normalize thresholds** → Create averages across ears/frequencies or group thresholds into categories (normal, mild, severe).
 
-Each step ensures consistency across groups and makes the dataset usable. 
-
-#Data Understanding/Visualization
+I have already compiled 3 datasets (DEMO, AUQ, AUX) in R by joining them on the shared participant identifier SEQN. By doing this I brought together demographics, questionnaire responses, and audiometric exam results into one unified dataset for analysis.
 
 ## Data Understanding and Visualization (Planned)  
 I plan to use descriptive stats and visualizations, such as:  
