@@ -39,6 +39,7 @@ I have already compiled 3 datasets (DEMO, AUQ, AUX) in R by joining them on the 
 
 *Placeholder - Figure 1: Line graph of Age vs. Average Hearing Threshold*  
 *Placeholder - Figure 2: Bar chart of Noise Exposure and Hearing Outcomes*
+
 *Placeholder - Figure 3: Boxplot of Gender Differences in Hearing Thresholds*    
 
 ## Storytelling
