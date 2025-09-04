@@ -14,9 +14,9 @@ The dataset I am working with comes from the **National Health and Nutrition Exa
 https://wwwn.cdc.gov/nchs/nhanes/search/datapage.aspx?Component=Examination&Cycle=2017-2020
 
 **Key features include:**  
-- `SEQN`: Participant ID  
-- `Age`: Age in years at the time of exam  
-- `Gender`: Biological sex (male/female)  
+- SEQN: Participant ID  
+- Age: Age in years at the time of exam  
+- Gender: Biological sex (male/female)  
 - **Audiometric thresholds**: Hearing thresholds at multiple frequencies (500Hz, 1000Hz, 2000Hz, 4000Hz, etc.) measured in decibels  
 - **Demographic variables**: Race/ethnicity, education, income  
 - **Noise exposure**: Self-reported work or leisure exposure to loud noise  
@@ -29,7 +29,7 @@ I believe that these features should allow for both a biological and social unde
 - **Recode categorical data** → Clean categories for gender, race/ethnicity, and education.  
 - **Normalize thresholds** → Create averages across ears/frequencies or group thresholds into categories (normal, mild, severe).
 
-I have already compiled 3 datasets (DEMO, AUQ, AUX) in R by joining them on the shared participant identifier SEQN. By doing this I brought together demographics, questionnaire responses, and audiometric exam results into one unified dataset for analysis.
+I have already compiled 3 datasets (DEMO, AUQ, AUX) in R by joining them on the shared participant identifier SEQN, after convering them from XPT to CSV files. By doing this I brought together demographics, questionnaire responses, and audiometric exam results into one unified dataset for analysis.
 
 ## Data Understanding and Visualization (Incomplete)  
 
