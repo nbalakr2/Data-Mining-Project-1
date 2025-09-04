@@ -7,8 +7,8 @@ For this project, I wanted to focus on hearing loss and its predictors. As someo
 
 The guiding questions for my analysis are:  
 - How do hearing thresholds vary across age groups?  
-- Are there clear differences in hearing ability between men and women?  
-- What role does reported noise exposure play compared to biological factors?  
+- What role does reported noise exposure play compared to biological factors?
+- Are there clear differences in hearing ability between men and women? (subject too change)
 
 ## The Data  
 The dataset I am working with comes from the **National Health and Nutrition Examination Survey (NHANES)**, which collects large-scale health and nutrition data from participants in the U.S. over multiple cycles. Specifically, I am drawing on the NHANES audiometric testing files that record hearing thresholds across several frequencies.
@@ -23,9 +23,9 @@ https://wwwn.cdc.gov/nchs/nhanes/search/datapage.aspx?Component=Examination&Cycl
 - **Demographic variables**: Race/ethnicity, education, income  
 - **Noise exposure**: Self-reported work or leisure exposure to loud noise  
 
-These features allow for both a biological and social understanding of hearing health.  
+I believe that these features should allow for both a biological and social understanding of hearing health.  
 
-## Pre-processing the Data (Planned)  
+## Pre-processing the Data (In Progress)  
 - **Handle missing values** → NHANES has incomplete responses. I’ll decide whether to drop or impute based on coverage.  
 - **Combine cycles** → Merge data from multiple NHANES cycles (2011–2020) for a larger sample.  
 - **Recode categorical data** → Clean categories for gender, race/ethnicity, and education.  
@@ -33,19 +33,19 @@ These features allow for both a biological and social understanding of hearing h
 
 I have already compiled 3 datasets (DEMO, AUQ, AUX) in R by joining them on the shared participant identifier SEQN. By doing this I brought together demographics, questionnaire responses, and audiometric exam results into one unified dataset for analysis.
 
-## Data Understanding and Visualization (Planned)  
-I plan to use descriptive stats and visualizations, such as:  
+## Data Understanding and Visualization (Incomplete)  
+
 - **Age vs. average hearing threshold** → line chart  
 - **Gender differences** → boxplot comparing male vs. female thresholds  
 - **Noise exposure** → bar chart or histogram for distribution of exposure vs. hearing outcomes
 
-📊 *Placeholder for Figure 1: Line graph of Age vs. Average Hearing Threshold*  
-📊 *Placeholder for Figure 2: Boxplot of Gender Differences in Hearing Thresholds*  
-📊 *Placeholder for Figure 3: Bar chart of Noise Exposure and Hearing Outcomes*  
+*Placeholder for Figure 1: Line graph of Age vs. Average Hearing Threshold*  
+*Placeholder for Figure 3: Bar chart of Noise Exposure and Hearing Outcomes*
+*Placeholder for Figure 2: Boxplot of Gender Differences in Hearing Thresholds*    
 
 #Storytelling
 
-Through this analysis, I want to tell a story about hearing health in the U.S. The visualizations should make clear how age, lifestyle, and environment intersect to shape hearing outcomes. By connecting this data to both personal experience (as a musician) and public health relevance, I hope to build a narrative that is relatable and meaningful.  
+Through this analysis, i'd like to tell a story about hearing health in the U.S. The visualizations should make clear how age, lifestyle, and environment intersect to shape hearing outcomes. By connecting this data to both personal experience, as well as public health relevance, I hope to build a narrative that is relatable and meaningful while maintaining real-world impact.  
 
 The initial questions — around age, gender, and noise exposure — will likely be answered in part. But I also expect new questions to emerge, such as whether socioeconomic factors play an indirect role, or whether particular frequencies are disproportionately affected.  
 
@@ -58,9 +58,7 @@ This project raises awareness about hearing health and prevention, especially fo
 
 ## References  
 - Centers for Disease Control and Prevention (CDC). *National Health and Nutrition Examination Survey (NHANES)*.  
-- [Kaggle NHANES Dataset](https://www.kaggle.com/datasets/cdc/national-health-and-nutrition-examination-survey)
 - https://wwwn.cdc.gov/nchs/nhanes/search/datapage.aspx?Component=Examination&Cycle=2017-2020
-- Hoffman, H. J., Dobie, R. A., Losonczy, K. G., Themann, C. L., & Flamme, G. A. (2017). *Declining prevalence of hearing loss in US adults aged 20 to 69 years.* JAMA Otolaryngology–Head & Neck Surgery.  
 
 #Code
 
