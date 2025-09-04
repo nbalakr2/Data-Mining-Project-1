@@ -1,7 +1,7 @@
 # Data-Mining-Project-1
 
 ## Introduction: The Problem  
-For this project, I wanted to focus on hearing loss and its predictors. As someone who makes and listens to music at high volumes, I have a personal stake in understanding what factors contribute to long-term hearing damage. The problem I’m trying to address is: *what levels and thresholds actually feed into cumulative hearing loss, and what predictors (such as age, sex, or exposure to noise) are most strongly related to this outcome?*  
+For this project, I wanted to focus on hearing loss and its predictors. As someone who makes and listens to music at high volumes on a regular basis, I have a personal stake in understanding what factors contribute to long-term hearing damage. The problem I’m trying to address is: *what levels and thresholds actually feed into cumulative hearing loss, and what predictors (such as age, sex, or exposure to noise) are most strongly related to this outcome?*  
 
 The guiding questions for my analysis are:  
 - How do hearing thresholds vary across age groups?  
@@ -41,12 +41,12 @@ I have already compiled 3 datasets (DEMO, AUQ, AUX) in R by joining them on the 
 *Placeholder - Figure 2: Bar chart of Noise Exposure and Hearing Outcomes*
 *Placeholder - Figure 3: Boxplot of Gender Differences in Hearing Thresholds*    
 
-##Storytelling
+## Storytelling
 
 My goal through this analysis is that i'd like to tell a story and make an impact regarding hearing health globally.
 
 ## Impact Section  
-This project raises awareness about hearing health and prevention, especially for younger populations exposed to high-volume music. But there are risks of oversimplification. For example, focusing only on gender differences without considering occupational noise exposure or healthcare access could lead to narrow conclusions. Also, NHANES is U.S.-specific, so the results may not generalize globally.  
+This project raises awareness about hearing health and prevention, especially for younger populations exposed to high-volume music.
 
 ## References  
 - Centers for Disease Control and Prevention (CDC). *National Health and Nutrition Examination Survey (NHANES)*.  
