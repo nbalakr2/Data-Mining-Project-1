@@ -1,7 +1,5 @@
 # Data-Mining-Project-1
 
-# Project 1: Defining a Problem and Data Understanding  
-
 ## Introduction: The Problem  
 For this project, I wanted to focus on hearing loss and its predictors. As someone who makes and listens to music at high volumes, I have a personal stake in understanding what factors contribute to long-term hearing damage. The problem I’m trying to address is: *what levels and thresholds actually feed into cumulative hearing loss, and what predictors (such as age, sex, or exposure to noise) are most strongly related to this outcome?*  
 
