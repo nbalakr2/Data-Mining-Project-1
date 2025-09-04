@@ -2,7 +2,10 @@
 
 #PROBLEM INTRODUCTION
 
-#DATA INTRODUCTION
+##DATA INTRODUCTION
+
+#The dataset I am working with comes from the **National Health and Nutrition Examination Survey (NHANES)**, which collects large-scale health and nutrition data from participants in the U.S. over multiple cycles. Specifically, I am drawing on the NHANES audiometric testing files that record hearing thresholds across several frequencies.  
+
 
 #Pre-processing the data
 
