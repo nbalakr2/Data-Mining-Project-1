@@ -7,6 +7,7 @@ The guiding questions for my analysis are:
 - How do hearing thresholds vary across age groups?  
 - What role does reported noise exposure play compared to biological factors?
 - Are there clear differences in hearing ability between men and women? (subject too change)
+- How does the duration of reported noise exposure relate to hearing thresholds?
 
 ## The Data  
 The dataset I am working with comes from the **National Health and Nutrition Examination Survey (NHANES)**, which collects large-scale health and nutrition data from participants in the U.S. over multiple cycles. Specifically, I am drawing on the NHANES audiometric testing files that record hearing thresholds across several frequencies.
@@ -36,6 +37,7 @@ I have already compiled 3 datasets (DEMO, AUQ, AUX) in R by joining them on the 
 - **Age vs. average hearing threshold** : line chart  
 - **Gender differences** : boxplot comparing male vs. female thresholds  
 - **Noise exposure** : bar chart or histogram for distribution of exposure vs. hearing outcomes
+- **Cumulative noise exposure (years) vs. hearing thresholds** : scatterplot with trendline or grouped boxplot
 
 *Placeholder - Figure 1: Line graph of Age vs. Average Hearing Threshold*  
 *Placeholder - Figure 2: Bar chart of Noise Exposure and Hearing Outcomes*
