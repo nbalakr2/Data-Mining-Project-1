@@ -44,6 +44,9 @@ I have already compiled 3 datasets (DEMO, AUQ, AUX) in R by joining them on the 
 
 *Placeholder - Figure 3: Boxplot of Gender Differences in Hearing Thresholds*    
 
+<img width="1274" height="810" alt="image" src="https://github.com/user-attachments/assets/45a2e2d8-8981-41d6-ab53-ab9a4ede9639" />
+
+
 ## Storytelling
 
 My goal through this analysis is that i'd like to tell a story and make an impact regarding hearing health globally.
