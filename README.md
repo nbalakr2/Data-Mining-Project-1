@@ -59,12 +59,25 @@ df_aux had 5,147 entries and 90 columns with a substantial number of missing val
 *Placeholder - Figure 3: Boxplot of Gender Differences in Hearing Thresholds*    
 
 <img width="1189" height="590" alt="image" src="https://github.com/user-attachments/assets/133b4efb-f9a8-4aa0-95b6-cc47718385c9" />
-Fig. 1 — Age vs. hearing thresholds by frequency (AUXU, 500–8000 Hz)
-<img width="1187" height="590" alt="image" src="https://github.com/user-attachments/assets/a3ef3ab3-1f52-423f-86d0-95d94e108a8f" />
-Fig. 2 — Onset of hearing loss (Adults 70+), by gender (AUQ400)
-<img width="1189" height="590" alt="image" src="https://github.com/user-attachments/assets/dca71376-446f-4e40-9640-e7874cfb08d8" />
-Fig. 3 — Years of loud work noise vs. average thresholds (AUXU, 500–8000 Hz)
+Fig. 1 — Average Hearing Thresholds (AUXU) Across Frequencies by Age (line)
 
+This plot shows the minimum loudness needed to hear a tone at each frequency.
+Y-axis: threshold in dB HL (higher = worse hearing). X-axis: age. Each line is a frequency (500–8000 Hz).
+Takeaway: thresholds stay low through mid-life and then jump after ~70, with the biggest rise at 6–8 kHz.
+
+<img width="1187" height="590" alt="image" src="https://github.com/user-attachments/assets/a3ef3ab3-1f52-423f-86d0-95d94e108a8f" />
+
+Fig. 2 — When Individuals (70+) Began to Have Hearing Loss, by Gender — AUQ400 (bar)
+
+The grouped bars show the number of respondents (who were age 70+) who reported the age range when hearing loss began, split by male vs. female.
+Takeaway: the largest counts are at “70 years and older” overall, but men seem to experience hearing loss more in the earlier-onset bands (e.g., 20–59 and 60–69), while women peak at “70+.” Within this 70+ sample, that pattern suggests men tend to experience hearing loss sooner in life.
+
+<img width="1189" height="590" alt="image" src="https://github.com/user-attachments/assets/dca71376-446f-4e40-9640-e7874cfb08d8" />
+
+Fig. 3 — Average AUXU Values by Duration Exposed to Loud Noise at Work (line)
+
+Lines show the mean hearing threshold (dB HL) at each frequency for people with different years of loud work-noise exposure.
+Takeaway: thresholds increase with longer exposure and the effect is strongest at 6–8 kHz, consistent with cumulative noise damage.
 
 
 ## Storytelling
