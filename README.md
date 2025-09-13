@@ -24,7 +24,7 @@ https://wwwn.cdc.gov/nchs/nhanes/search/datapage.aspx?Component=Examination&Cycl
 
 I believe that these features should allow for both a biological and social understanding of hearing health.  
 
-## Pre-processing the Data (In Progress)  
+## Pre-processing the Data
 - **Handle missing values** : NHANES has incomplete responses. I’ll decide whether to drop or impute based on coverage.  
 - **Combine cycles** : Merge data from multiple NHANES cycles (2011–2020) for a larger sample.  
 - **Recode categorical data** : Clean categories for gender, race/ethnicity, and education.  
@@ -42,7 +42,7 @@ I believe that these features should allow for both a biological and social unde
 
 I have already compiled 3 datasets (DEMO, AUQ, AUX) in R by joining them on the shared participant identifier SEQN, after converting them from XPT to CSV files. By doing this I brought together demographics, questionnaire responses, and audiometric exam results into one unified dataset for analysis.
 
-## Data Understanding and Visualization (Incomplete)  
+## Data Understanding and Visualization
 
 - **Age vs. average hearing threshold** : line chart  
 - **Gender differences** : boxplot comparing male vs. female thresholds  
@@ -55,8 +55,11 @@ I have already compiled 3 datasets (DEMO, AUQ, AUX) in R by joining them on the 
 *Placeholder - Figure 3: Boxplot of Gender Differences in Hearing Thresholds*    
 
 <img width="1189" height="590" alt="image" src="https://github.com/user-attachments/assets/133b4efb-f9a8-4aa0-95b6-cc47718385c9" />
+Fig. 1 — Age vs. hearing thresholds by frequency (AUXU, 500–8000 Hz)
 <img width="1187" height="590" alt="image" src="https://github.com/user-attachments/assets/a3ef3ab3-1f52-423f-86d0-95d94e108a8f" />
+Fig. 2 — Onset of hearing loss (Adults 70+), by gender (AUQ400)
 <img width="1189" height="590" alt="image" src="https://github.com/user-attachments/assets/dca71376-446f-4e40-9640-e7874cfb08d8" />
+Fig. 3 — Years of loud work noise vs. average thresholds (AUXU, 500–8000 Hz)
 
 
 
@@ -73,11 +76,3 @@ This project raises awareness about hearing health and prevention, especially fo
 
 #Code
 
-#R-Code
-> install.packages("haven")
-
-> library(haven)
-
-> df_demo <- read_xpt("C:/Users/Nash B/Downloads/P_DEMO.xpt")
-
-> write.csv(df_demo, "C:/Users/Nash B/Downloads/P_DEMO.csv", row.names = FALSE)
