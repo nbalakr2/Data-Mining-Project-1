@@ -48,16 +48,6 @@ df_aux had 5,147 entries and 90 columns with a substantial number of missing val
 
 ## Data Understanding and Visualization
 
-- **Age vs. average hearing threshold** : line chart  
-- **Gender differences** : boxplot comparing male vs. female thresholds  
-- **Noise exposure** : bar chart or histogram for distribution of exposure vs. hearing outcomes
-- **Cumulative noise exposure (years) vs. hearing thresholds** : scatterplot with trendline or grouped boxplot
-
-*Placeholder - Figure 1: Line graph of Age vs. Average Hearing Threshold*  
-*Placeholder - Figure 2: Bar chart of Noise Exposure and Hearing Outcomes*
-
-*Placeholder - Figure 3: Boxplot of Gender Differences in Hearing Thresholds*    
-
 <img width="1189" height="590" alt="image" src="https://github.com/user-attachments/assets/133b4efb-f9a8-4aa0-95b6-cc47718385c9" />
 Fig. 1 — Average Hearing Thresholds (AUXU) Across Frequencies by Age (line)
 
