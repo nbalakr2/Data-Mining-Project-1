@@ -30,6 +30,16 @@ I believe that these features should allow for both a biological and social unde
 - **Recode categorical data** : Clean categories for gender, race/ethnicity, and education.  
 - **Normalize thresholds** : Create averages across left and right ears/frequencies or group thresholds into categories (normal, mild, severe).
 
+#R-Code to convert XPT to CSV
+
+> install.packages("haven")
+
+> library(haven)
+
+> df_demo <- read_xpt("C:/Users/Nash B/Downloads/P_DEMO.xpt")
+
+> write.csv(df_demo, "C:/Users/Nash B/Downloads/P_DEMO.csv", row.names = FALSE)
+
 I have already compiled 3 datasets (DEMO, AUQ, AUX) in R by joining them on the shared participant identifier SEQN, after converting them from XPT to CSV files. By doing this I brought together demographics, questionnaire responses, and audiometric exam results into one unified dataset for analysis.
 
 ## Data Understanding and Visualization (Incomplete)  
