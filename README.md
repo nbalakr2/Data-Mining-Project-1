@@ -84,10 +84,8 @@ Takeaway: thresholds increase with longer exposure and the effect is strongest a
 
 My goal through this analysis is that i'd like to tell a story and make an impact regarding hearing health globally.
 
-# Results & Discussion
-
 ## Overview
-This project asks a simple question: **who loses hearing, when, and why?** Using NHANES audiometry and self-reports, I summarize age trends, the role of loud-noise exposure, and gender timing. Thresholds are in **dB HL** (higher = worse hearing).
+This projects main question was: **who loses hearing, when, and why?** Using data within NHANES audiometric examiniations and self-reports, I aimed to summarize age trends, the role of loud-noise exposure, and gender timing. Thresholds are in **dB HL** (higher = worse hearing).
 
 ## Main Findings
 1. **Age effect:** Thresholds are stable through mid-life, then rise after ~70, with the steepest increases at **6–8 kHz**. *(Fig. 1)*
