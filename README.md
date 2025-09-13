@@ -84,6 +84,64 @@ Takeaway: thresholds increase with longer exposure and the effect is strongest a
 
 My goal through this analysis is that i'd like to tell a story and make an impact regarding hearing health globally.
 
+# Results & Discussion
+
+## Overview
+This project asks a simple question: **who loses hearing, when, and why?** Using NHANES audiometry and self-reports, I summarize age trends, the role of loud-noise exposure, and gender timing. Thresholds are in **dB HL** (higher = worse hearing).
+
+## Main Findings
+1. **Age effect:** Thresholds are stable through mid-life, then rise after ~70, with the steepest increases at **6–8 kHz**. *(Fig. 1)*
+2. **Noise exposure effect:** More years of loud work noise are linked to higher (worse) thresholds, strongest at **high frequencies**; the pattern looks dose–response. *(Fig. 3)*
+3. **Gender timing:** In the 70+ subgroup, **men** report earlier-onset bands more often (20–59, 60–69), while **women** peak at **“70+.”** *(Fig. 2)*
+
+## Evidence by Figure
+
+**Figure 1. Average Hearing Thresholds (AUXU) Across Frequencies by Age**  
+![Average thresholds by age and frequency](<./figures/Average Hearing Thresholds (AUXU) Across Frequencies by Age.png>)
+
+*Lines by frequency (500–8000 Hz) show a late-life bend. High frequencies climb first and fastest, matching the classic high-frequency pattern of age-related hearing loss.*
+
+---
+
+**Figure 2. When Individuals (70+; AUQ400) Began to Have Hearing Loss, by Gender**  
+![Onset timing by gender, age 70+](<./figures/When Individuals (70+ AUQ400) began to have hearing loss by Gender.png>)
+
+*Grouped bars show most respondents in this 70+ subgroup say onset at **“70+.”** **Men cluster more in earlier-onset bands** (20–59, 60–69), while **women** peak at “70+,” suggesting men tend to experience hearing loss sooner.*
+
+---
+
+**Figure 3. Average AUXU Values by Duration Exposed to Loud Noise at Work**  
+![Thresholds vs. years of loud work noise](<./figures/Average AUXU Values by Duration Exposed to Loud Noise at Work.png>)
+
+*Across exposure bands, thresholds increase in a graded way, especially at **6–8 kHz**. The ordering (1–2 < 3–4 < 5–9 < 10–14 < 15+) reads like a **dose–response** curve, consistent with cumulative noise effects.*
+
+## Answers to the Research Questions
+- **How do thresholds vary with age?**  
+  Stable through mid-life; sharp rise after ~70, strongest at high frequencies. *(Fig. 1)*
+- **Noise exposure vs. biological factors?**  
+  Exposure adds on top of age. More years in loud settings associate with higher thresholds, strongest at high frequencies. *(Fig. 3)*
+- **Differences between men and women?**  
+  In the 70+ subgroup, men show earlier-onset bands more often; women peak at “70+.” *(Fig. 2)*
+- **Does longer exposure relate to thresholds?**  
+  Yes. The relationship is monotonic and most pronounced at 6–8 kHz. *(Fig. 3)*
+
+## Interpretation
+Together, the figures tell one story: **age sets the baseline slope**, **noise exposure steepens it**, and **high frequencies show the damage first**. The gender timing fits contexts where men may accumulate loud-sound exposure earlier.
+
+## Limitations & Notes
+- **Subgroup scope (Fig. 2):** Onset timing is shown for people **already 70+**, which can reflect survival and sample composition.  
+- **Self-report vs. measurement:** Onset ages are **self-reported**; thresholds are **measured**. Agreement is encouraging but not causal proof.  
+- **Confounding:** Demographics (education, income, race/ethnicity) and non-work noise (music, recreation) may also matter.
+
+## Implications
+For musicians and anyone in loud environments: protect **high frequencies** early. Practical steps—hearing protection, safe listening levels, breaks—target the frequencies that decline first and the exposures that accelerate decline.
+
+## Next Steps
+- Compare **PTA4** and **HF-PTA** by sex and exposure across the **full sample**.  
+- Add simple statistics (trend tests; CIs) to support the visual patterns.
+
+> **One-sentence takeaway:** *Age drives the curve, noise exposure steepens it, and high frequencies pay the price first—especially for men, earlier.*
+
 ## Impact Section  
 This project raises awareness about hearing health and prevention, especially for younger populations exposed to high-volume music.
 
