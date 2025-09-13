@@ -42,6 +42,9 @@ I believe that these features should allow for both a biological and social unde
 
 I have already compiled 3 datasets (DEMO, AUQ, AUX) in R by joining them on the shared participant identifier SEQN, after converting them from XPT to CSV files. By doing this I brought together demographics, questionnaire responses, and audiometric exam results into one unified dataset for analysis.
 
+df_auq had 14,986 entries and 58 columns with 764,744 missing values.
+df_aux had 5,147 entries and 90 columns with a substantial number of missing values.
+
 ## Data Understanding and Visualization
 
 - **Age vs. average hearing threshold** : line chart  
