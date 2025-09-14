@@ -78,7 +78,7 @@ This projects main question was: **who loses hearing, when, and why?** Using dat
 
 Figure 1
 
-X-axis is age (years). Y-axis is hearing threshold in dB HL (higher = poorer sensitivity). Each line is a test frequency (500, 1000, 2000, 3000, 4000, 6000, 8000 Hz). The lines sit low and relatively flat through much of adulthood, then rise later in life. The turn is steepest at 6–8 kHz, modest at mid frequencies (2–4 kHz), and smallest at 500 Hz. The gap between high and low frequency lines widens with age, which means high pitches require a bigger loudness boost in older groups. This proves that hearing doesn’t drop evenly, the higher end of the frequency band drops first, and the slope accelerates in the seventies.
+The X-axis shows age (years), while the Y-axis shows hearing threshold in dB HL (higher = poorer sensitivity). Each line is a test frequency (500, 1000, 2000, 3000, 4000, 6000, 8000 Hz). The lines sit low and relatively flat through much of adulthood, then rise later in life. The turn is steepest at 6–8 kHz, modest at mid frequencies (2–4 kHz), and smallest at 500 Hz. The gap between high and low frequency lines widens with age, which means high pitches require a bigger loudness boost in older groups. This proves that hearing doesn’t drop evenly, the higher end of the frequency band drops first, and the slope accelerates in the seventies.
 
 Figure 2
 
@@ -86,7 +86,7 @@ The X-axis groups the self-reported age that hearing loss began, with an additio
 
 Figure 3
 
-X-axis is exposure duration (≈1–2, 3–4, 5–9, 10–14, 15+ years). Y-axis is dB HL. Each line again represents a frequency. The ordering is monotonic: each step up in exposure corresponds to higher average thresholds. The separation between exposure groups is largest at 6–8 kHz, smaller at mid frequencies, and smallest at 500 Hz. That pattern looks like dose → effect rather than random wiggle: age already lifts thresholds (Fig. 1), and chronic noise adds a second lift, especially in the highs.
+The X-axis shows exposure duration while Y-axis shows dB HL threshold. Each line again represents a frequency. The ordering is monotonic: each step up in exposure corresponds to higher average thresholds. The separation between exposure groups is largest at 6–8 kHz, smaller at mid frequencies, and smallest at 500 Hz. That pattern looks like dose → effect rather than random wiggle: age already lifts thresholds (Fig. 1), and chronic noise adds a second lift, especially in the highs.
 
 Putting it together.
 Across figures, the narrative is consistent. Age and gender sets the baseline, long-term loud exposure shifts the curve upward through duration, while high frequencies act as the early warning. The bar graph suggests that men encounter significant change earlier, which fits real-world exposure histories (work/recreation) but should be confirmed in the full sample with direct sex comparisons and high-frequency averages.
