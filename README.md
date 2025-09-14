@@ -76,30 +76,34 @@ My goal through this analysis is that i'd like to tell a story and make an impac
 
 This projects main question was: **who loses hearing, when, and why?** Using data within NHANES audiometric examiniations and self-reports, I aimed to summarize age trends, the role of loud-noise exposure, and gender timing. Thresholds are in **dB HL** (higher = worse hearing).
 
-Figure 1
+### Figure 1
 
 The X-axis shows age (years), while the Y-axis shows hearing threshold in dB HL (higher = poorer sensitivity). Each line is a test frequency (500, 1000, 2000, 3000, 4000, 6000, 8000 Hz). The lines sit low and relatively flat through much of adulthood, then rise later in life. The turn is steepest at 6–8 kHz, modest at mid frequencies (2–4 kHz), and smallest at 500 Hz. The gap between high and low frequency lines widens with age, which means high pitches require a bigger loudness boost in older groups. This proves that hearing doesn’t drop evenly, the higher end of the frequency band drops first, and the slope accelerates in the seventies.
 
-Figure 2
+### Figure 2
 
 The X-axis groups the self-reported age that hearing loss began, with an additional bar for those who experienced no hearing loss. The Y axis shows the number of respondents, with the bars being split by sex. Within this subsample, both men and women peak at “70+,” and very few report no hearing loss. The important difference appears before 70: men have much higher counts in the 20–59 and 60–69 bands, while women concentrate at “70+.” This points to earlier onset among men, though it should be read cautiously because onset is self-reported and the figure includes only people who have already reached 70.
 
-Figure 3
+### Figure 3
 
 The X-axis shows exposure duration while the Y-axis shows dB HL threshold. Each line again represents a frequency. Each step up in exposure corresponds to higher average thresholds. The separation between exposure groups is largest at 6–8 kHz, smaller at mid frequencies, and smallest at 500 Hz. This visualization proves the existence of a trend, it reads as cumulative wear as well as age (indirectly) pushes thresholds up, and years spent around loud sound shifts the  curve higher, most noticeably at the high frequencies.
 
 Across these figures, there are clear findings. Age and gender sets the baseline, while long-term loud exposure shifts the curve upward through duration, while high frequencies act as the early warning. The bar graph suggests that men encounter significant change earlier, which fits real-world exposure histories (work/recreation) but should be confirmed in the full sample with direct sex comparisons and high-frequency averages. It is als very important to keep in mind that the parts of hearing that carry clarity, frequencies on the high end of the frequency band, are the ones that diminish first. The best way to mitigate this is by managing volume and duration, as well as utilizing ear plugs to decrease the impact upon ears.
 
 ## Impact Section  
+
 This project raises awareness about hearing health and prevention, especially for younger populations exposed to high-volume music.
 
-Why this matters.
+### Why this matters
+
 These visuals underline a practical point, that hearing loss isn’t a sudden drop, it is something that can be caught early on that could accelerate later in life, with consistent exposure to loud environments pushing the process along. That makes the problem actionable. If the earliest recognition is seen in the highend, then routine high-frequency scans, controlling of noise level and exposure, as well as normalizing and practicing good ear protection etiquette in loud spaces can actually make a difference.
 
-Possible harm / misreadings.
+### Possible harm / misreadings
+
 Charts like these can be misread as something unavoidable (“everyone loses hearing at 70”). They also might overstate work noise while ignoring music, hobbies, or other environmental factors.
 
-What might be missing.
+### What might be missing
+
 NHANES doesn’t perfectly capture total sound history. Things such as exact levels, history, show volume, and use of ear protection use aren’t fully observed. Medical factors, smoking, childhood symptoms, and genetics can also shift thresholds. A lot of the examination questions as well were only tested on those 5-19 as well as 70+.
 
 ## References  
