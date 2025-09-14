@@ -88,12 +88,7 @@ Figure 3
 
 The X-axis shows exposure duration while the Y-axis shows dB HL threshold. Each line again represents a frequency. Each step up in exposure corresponds to higher average thresholds. The separation between exposure groups is largest at 6–8 kHz, smaller at mid frequencies, and smallest at 500 Hz. This visualization proves the existence of a trend, it reads as cumulative wear as well as age (indirectly) pushes thresholds up, and years spent around loud sound shifts the  curve higher, most noticeably at the high frequencies.
 
-Across figures, the narrative is consistent. Age and gender sets the baseline, while long-term loud exposure shifts the curve upward through duration, while high frequencies act as the early warning. The bar graph suggests that men encounter significant change earlier, which fits real-world exposure histories (work/recreation) but should be confirmed in the full sample with direct sex comparisons and high-frequency averages.
-
-The parts of hearing that carry clarity are the ones that diminish first. That makes prevention concrete: if you live around loud sound (I do), protect the highs early—protection, sane levels, breaks—because waiting until the seventies is too late to keep that detail.
-
-What I’d quantify next.
-Run simple models to back the visuals: regress PTA4 and a high-frequency PTA on age, sex, and exposure years (plus demographics). Report effect sizes and CIs to test whether the stepwise exposure ordering in Fig. 3 holds after adjustment and whether the sex timing in Fig. 2 shows up in measured thresholds across the full sample. 
+Across these figures, there are clear findings. Age and gender sets the baseline, while long-term loud exposure shifts the curve upward through duration, while high frequencies act as the early warning. The bar graph suggests that men encounter significant change earlier, which fits real-world exposure histories (work/recreation) but should be confirmed in the full sample with direct sex comparisons and high-frequency averages. It is als very important to keep in mind that the parts of hearing that carry clarity, frequencies on the high end of the frequency band, are the ones that diminish first. The best way to mitigate this is by managing volume and duration, as well as utilizing ear plugs to decrease the impact upon ears.
 
 ## Impact Section  
 This project raises awareness about hearing health and prevention, especially for younger populations exposed to high-volume music.
