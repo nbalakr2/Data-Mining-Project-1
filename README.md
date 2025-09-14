@@ -93,6 +93,15 @@ Across these figures, there are clear findings. Age and gender sets the baseline
 ## Impact Section  
 This project raises awareness about hearing health and prevention, especially for younger populations exposed to high-volume music.
 
+Why this matters.
+These visuals underline a practical point, that hearing loss isn’t a sudden drop, it is something that can be caught early on that could accelerate later in life, with consistent exposure to loud environments pushing the process along. That makes the problem actionable. If the earliest recognition is seen in the highend, then routine high-frequency scans, controlling of noise level and exposure, as well as normalizing and practicing good ear protection etiquette in loud spaces can actually make a difference.
+
+Possible harm / misreadings.
+Charts like these can be misread as something unavoidable (“everyone loses hearing at 70”). They also might overstate work noise while ignoring music, hobbies, or other environmental factors.
+
+What might be missing.
+NHANES doesn’t perfectly capture total sound history. Things such as exact levels, history, show volume, and use of ear protection use aren’t fully observed. Medical factors, smoking, childhood symptoms, and genetics can also shift thresholds. A lot of the examination questions as well were only tested on those 5-19 as well as 70+.
+
 ## References  
 - Centers for Disease Control and Prevention (CDC). *National Health and Nutrition Examination Survey (NHANES)*.  
 - https://wwwn.cdc.gov/nchs/nhanes/search/datapage.aspx?Component=Examination&Cycle=2017-2020
