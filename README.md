@@ -74,61 +74,28 @@ Takeaway: thresholds increase with longer exposure and the effect is strongest a
 
 My goal through this analysis is that i'd like to tell a story and make an impact regarding hearing health globally.
 
-## Overview
 This projects main question was: **who loses hearing, when, and why?** Using data within NHANES audiometric examiniations and self-reports, I aimed to summarize age trends, the role of loud-noise exposure, and gender timing. Thresholds are in **dB HL** (higher = worse hearing).
 
-## Main Findings
-1. **Age effect:** Thresholds are stable through mid-life, then rise after ~70, with the steepest increases at **6–8 kHz**. *(Fig. 1)*
-2. **Noise exposure effect:** More years of loud work noise are linked to higher (worse) thresholds, strongest at **high frequencies**; the pattern looks dose–response. *(Fig. 3)*
-3. **Gender timing:** In the 70+ subgroup, **men** report earlier-onset bands more often (20–59, 60–69), while **women** peak at **“70+.”** *(Fig. 2)*
+Figure 1
 
-## Evidence by Figure
+X-axis is age (years). Y-axis is hearing threshold in dB HL (higher = poorer sensitivity). Each line is a test frequency (500, 1000, 2000, 3000, 4000, 6000, 8000 Hz). The lines sit low and relatively flat through much of adulthood, then rise later in life. The turn is steepest at 6–8 kHz, modest at mid frequencies (2–4 kHz), and smallest at 500 Hz. The gap between high and low frequency lines widens with age, which means high pitches require a bigger loudness boost in older groups. This proves that hearing doesn’t drop evenly, the higher end of the frequency band drops first, and the slope accelerates in the seventies.
 
-**Figure 1. Average Hearing Thresholds (AUXU) Across Frequencies by Age**  
-![Average thresholds by age and frequency](<./figures/Average Hearing Thresholds (AUXU) Across Frequencies by Age.png>)
+Figure 2
 
-*Lines by frequency (500–8000 Hz) show a late-life bend. High frequencies climb first and fastest, matching the classic high-frequency pattern of age-related hearing loss.*
+The X-axis groups the self-reported age that hearing loss began, with an additional bar for those who experienced no hearing loss. The Y axis shows the number of respondents, with the bars being split by sex. Within this subsample, both men and women peak at “70+,” and very few report no hearing loss. The important difference appears before 70: men have much higher counts in the 20–59 and 60–69 bands, while women concentrate at “70+.” This points to earlier onset among men, though it should be read cautiously because onset is self-reported and the figure includes only people who have already reached 70.
 
----
+Figure 3
 
-**Figure 2. When Individuals (70+; AUQ400) Began to Have Hearing Loss, by Gender**  
-![Onset timing by gender, age 70+](<./figures/When Individuals (70+ AUQ400) began to have hearing loss by Gender.png>)
+X-axis is exposure duration (≈1–2, 3–4, 5–9, 10–14, 15+ years). Y-axis is dB HL. Each line again represents a frequency. The ordering is monotonic: each step up in exposure corresponds to higher average thresholds. The separation between exposure groups is largest at 6–8 kHz, smaller at mid frequencies, and smallest at 500 Hz. That pattern looks like dose → effect rather than random wiggle: age already lifts thresholds (Fig. 1), and chronic noise adds a second lift, especially in the highs.
 
-*Grouped bars show most respondents in this 70+ subgroup say onset at **“70+.”** **Men cluster more in earlier-onset bands** (20–59, 60–69), while **women** peak at “70+,” suggesting men tend to experience hearing loss sooner.*
+Putting it together.
+Across figures, the narrative is consistent. Age and gender sets the baseline, long-term loud exposure shifts the curve upward through duration, while high frequencies act as the early warning. The bar graph suggests that men encounter significant change earlier, which fits real-world exposure histories (work/recreation) but should be confirmed in the full sample with direct sex comparisons and high-frequency averages.
 
----
+Why this matters.
+The parts of hearing that carry clarity (consonants, cymbals, “air”) are the ones that separate first. That makes prevention concrete: if you live around loud sound (I do), protect the highs early—protection, sane levels, breaks—because waiting until the seventies is too late to keep that detail.
 
-**Figure 3. Average AUXU Values by Duration Exposed to Loud Noise at Work**  
-![Thresholds vs. years of loud work noise](<./figures/Average AUXU Values by Duration Exposed to Loud Noise at Work.png>)
-
-*Across exposure bands, thresholds increase in a graded way, especially at **6–8 kHz**. The ordering (1–2 < 3–4 < 5–9 < 10–14 < 15+) reads like a **dose–response** curve, consistent with cumulative noise effects.*
-
-## Answers to the Research Questions
-- **How do thresholds vary with age?**  
-  Stable through mid-life; sharp rise after ~70, strongest at high frequencies. *(Fig. 1)*
-- **Noise exposure vs. biological factors?**  
-  Exposure adds on top of age. More years in loud settings associate with higher thresholds, strongest at high frequencies. *(Fig. 3)*
-- **Differences between men and women?**  
-  In the 70+ subgroup, men show earlier-onset bands more often; women peak at “70+.” *(Fig. 2)*
-- **Does longer exposure relate to thresholds?**  
-  Yes. The relationship is monotonic and most pronounced at 6–8 kHz. *(Fig. 3)*
-
-## Interpretation
-Together, the figures tell one story: **age sets the baseline slope**, **noise exposure steepens it**, and **high frequencies show the damage first**. The gender timing fits contexts where men may accumulate loud-sound exposure earlier.
-
-## Limitations & Notes
-- **Subgroup scope (Fig. 2):** Onset timing is shown for people **already 70+**, which can reflect survival and sample composition.  
-- **Self-report vs. measurement:** Onset ages are **self-reported**; thresholds are **measured**. Agreement is encouraging but not causal proof.  
-- **Confounding:** Demographics (education, income, race/ethnicity) and non-work noise (music, recreation) may also matter.
-
-## Implications
-For musicians and anyone in loud environments: protect **high frequencies** early. Practical steps—hearing protection, safe listening levels, breaks—target the frequencies that decline first and the exposures that accelerate decline.
-
-## Next Steps
-- Compare **PTA4** and **HF-PTA** by sex and exposure across the **full sample**.  
-- Add simple statistics (trend tests; CIs) to support the visual patterns.
-
-> **One-sentence takeaway:** *Age drives the curve, noise exposure steepens it, and high frequencies pay the price first—especially for men, earlier.*
+What I’d quantify next.
+Run simple models to back the visuals: regress PTA4 and a high-frequency PTA on age, sex, and exposure years (plus demographics). Report effect sizes and CIs to test whether the stepwise exposure ordering in Fig. 3 holds after adjustment and whether the sex timing in Fig. 2 shows up in measured thresholds across the full sample. 
 
 ## Impact Section  
 This project raises awareness about hearing health and prevention, especially for younger populations exposed to high-volume music.
