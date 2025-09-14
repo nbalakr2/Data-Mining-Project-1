@@ -86,13 +86,11 @@ The X-axis groups the self-reported age that hearing loss began, with an additio
 
 Figure 3
 
-The X-axis shows exposure duration while Y-axis shows dB HL threshold. Each line again represents a frequency. The ordering is monotonic: each step up in exposure corresponds to higher average thresholds. The separation between exposure groups is largest at 6–8 kHz, smaller at mid frequencies, and smallest at 500 Hz. That pattern looks like dose → effect rather than random wiggle: age already lifts thresholds (Fig. 1), and chronic noise adds a second lift, especially in the highs.
+The X-axis shows exposure duration while the Y-axis shows dB HL threshold. Each line again represents a frequency. Each step up in exposure corresponds to higher average thresholds. The separation between exposure groups is largest at 6–8 kHz, smaller at mid frequencies, and smallest at 500 Hz. This visualization proves the existence of a trend, it reads as cumulative wear as well as age (indirectly) pushes thresholds up, and years spent around loud sound shifts the  curve higher, most noticeably at the high frequencies.
 
-Putting it together.
-Across figures, the narrative is consistent. Age and gender sets the baseline, long-term loud exposure shifts the curve upward through duration, while high frequencies act as the early warning. The bar graph suggests that men encounter significant change earlier, which fits real-world exposure histories (work/recreation) but should be confirmed in the full sample with direct sex comparisons and high-frequency averages.
+Across figures, the narrative is consistent. Age and gender sets the baseline, while long-term loud exposure shifts the curve upward through duration, while high frequencies act as the early warning. The bar graph suggests that men encounter significant change earlier, which fits real-world exposure histories (work/recreation) but should be confirmed in the full sample with direct sex comparisons and high-frequency averages.
 
-Why this matters.
-The parts of hearing that carry clarity (consonants, cymbals, “air”) are the ones that separate first. That makes prevention concrete: if you live around loud sound (I do), protect the highs early—protection, sane levels, breaks—because waiting until the seventies is too late to keep that detail.
+The parts of hearing that carry clarity are the ones that diminish first. That makes prevention concrete: if you live around loud sound (I do), protect the highs early—protection, sane levels, breaks—because waiting until the seventies is too late to keep that detail.
 
 What I’d quantify next.
 Run simple models to back the visuals: regress PTA4 and a high-frequency PTA on age, sex, and exposure years (plus demographics). Report effect sizes and CIs to test whether the stepwise exposure ordering in Fig. 3 holds after adjustment and whether the sex timing in Fig. 2 shows up in measured thresholds across the full sample. 
